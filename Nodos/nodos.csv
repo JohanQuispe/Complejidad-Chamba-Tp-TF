@@ -1,0 +1,13 @@
+# Nodos
+id,nombre,latitud,longitud
+1,Avenida 1 y Calle 1,-12.0453,-77.0311
+2,Avenida 1 y Calle 2,-12.0523,-77.0378
+3,Avenida 2 y Calle 1,-12.0481,-77.0282
+4,Avenida 2 y Calle 2,-12.0545,-77.0452
+
+# Conexiones
+origen,destino,peso
+1,2,5.0
+2,3,3.2
+3,4,1.8
+1,4,2.5

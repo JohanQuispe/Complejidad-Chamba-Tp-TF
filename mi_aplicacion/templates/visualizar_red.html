@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar Red de Internet</title>
+</head>
+<body>
+    <h1>Mapa de la Red de Internet</h1>
+    <div>
+        {{ mapa|safe }}  <!-- Aquí se mostrará el mapa generado -->
+    </div>
+    <a href="{% url 'home' %}">Volver al Inicio</a>
+</body>
+</html>
